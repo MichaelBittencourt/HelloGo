@@ -22,3 +22,7 @@ go mod edit -replace example.com/greetings=../greetings
 # go 1.16
 #
 # replace example.com/greetings => ../greetings
+
+#To update or get a specific version
+# you can get from a specific commit hash tag version and I think, a branch
+go get github.com/MichaelBittencourt/greatings@latest

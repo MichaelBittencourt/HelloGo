@@ -3,7 +3,7 @@ module example/hello
 go 1.17
 
 require (
-	github.com/MichaelBittencourt/greatings v0.0.0-20211008140724-44a61c9c860e
+	github.com/MichaelBittencourt/greatings v0.0.0-20211008162301-e5b3d662fe8c
 	rsc.io/quote v1.5.2
 )
 
