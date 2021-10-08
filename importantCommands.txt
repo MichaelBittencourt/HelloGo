@@ -1,0 +1,13 @@
+go version #check version
+go mod init example/hello #init module can be a github path as example
+vim go.mod #the go mod create this file
+vim hello.go #The source code
+go run . #run the main function on my current main package that is the current folder
+go help #show help commands
+go build . #build the current folder to generate a binary
+go run hello.go #run the hello.go file
+go mod tidy #found all imports that are not downloaded and download. update go.mod and go.sum
+vim go.mod
+vim go.sum
+go run .
+go build
