@@ -18,7 +18,7 @@ func main() {
 	log.SetFlags(0)
 
 	// Request a greatings message.
-	message, err := greatings.Hello("")
+	message, err := greatings.Hello("Michael")
 	// If an error was returned, print it to the console and
 	// exit the program
 	if err != nil {
