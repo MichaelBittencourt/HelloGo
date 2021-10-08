@@ -26,3 +26,19 @@ go mod edit -replace example.com/greetings=../greetings
 #To update or get a specific version
 # you can get from a specific commit hash tag version and I think, a branch
 go get github.com/MichaelBittencourt/greatings@latest
+
+#To do unit tests you need create a files with end _test.go with tests and run test command
+
+go test #run unit test and show OK or FAIL
+
+go test -v #run unit test verbose
+
+#To discover where go will install the package you can use go list command
+
+go list -f '{{.Target}}'
+
+# You also can use a path already in you shell path to set to install your binaries
+
+go env -w GOBIN=/path/to/your/bin #path to you bin folder
+
+
