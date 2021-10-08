@@ -11,3 +11,14 @@ vim go.mod
 vim go.sum
 go run .
 go build
+
+###### I can edit the path of a specific package ########
+
+go mod edit -replace example.com/greetings=../greetings
+
+#this will add something like this on go.mod
+# module example.com/hello
+#
+# go 1.16
+#
+# replace example.com/greetings => ../greetings
